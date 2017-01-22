@@ -1,0 +1,21 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.loginfield {
+  background-color: lightgrey;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.loginimg {
+  width: 200px;
+  margin: 0 auto;
+}
