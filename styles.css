@@ -1,21 +1,60 @@
+body {
+  font-family: 'Open Sans', arial;
+  color: #777;
+  padding: 30px;
+
+}
+
 .container {
   width: 500px;
   margin: 0 auto;
+  text-align: center;
+}
 
+.container > div {
+  margin-bottom: 20px
 }
 
 .logo {
   width: 100px;
   margin: 0 auto;
+  margin-bottom: 5s0px;
 }
 
 .loginfield {
-  background-color: lightgrey;
-  width: 400px;
+  background-color: #f7f7f7;
+  width: 300px;
   margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #CCCCCC;
 }
 
-.loginimg {
-  width: 200px;
-  margin: 0 auto;
+.loginimg img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+}
+
+.formelement {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 0px solid;
+}
+
+.loginform button {
+  color: #FFFFFF;
+  background-color: #337ab7;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.logostrip img {
+  margin-top: 5px;
 }
